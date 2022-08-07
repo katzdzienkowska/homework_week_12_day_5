@@ -1,0 +1,7 @@
+public enum FlightCrewRank {
+    CAPTAIN,
+    FLIGHT_ATTENDANT,
+    FIRST_OFFICER,
+    SECOND_OFFICER,
+    INFLIGHT_MANAGER
+}
