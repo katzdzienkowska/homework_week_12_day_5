@@ -91,6 +91,14 @@ public class Flight {
     public void addCabinCrewMemberToThePlane(CabinCrewMember cabinCrewMember) {
         cabinCrewMembers.add(cabinCrewMember);
     }
+
+    public int numberOfBagsBooked() {
+        int totalBagsBooked = 0;
+        for (Passenger passenger : bookedPassengers) {
+            totalBagsBooked += passenger.getNumberOfBags();
+        }
+        return totalBagsBooked;
+    }
 }
 
 
